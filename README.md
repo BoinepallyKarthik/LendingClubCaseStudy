@@ -1,76 +1,75 @@
-# Project Name: Lending Club Case Study
+# Project Title: Lending Club Case Study
 
 ## Table of Contents
 
-- [General Info](#general-information)
-- [Technologies Used](#technologies-used)
+- [Introduction](#introduction)
+- [Technologies Utilized](#technologies-utilized)
 - [Conclusions](#conclusions)
 - [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+<!-- Additional sections related to the problem can be included -->
 
-## General Information
+## Introduction
 
-### Project Information
+### Project Details
 
-> The project is a data science project that uses the lending club data set to predict whether a loan will be defaulted or not.
+> This case study involves a data science project that utilizes the Lending Club dataset to predict the likelihood of loan default.
 
 ### Project Background
 
-> This company is the largest **online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures**. Borrowers can easily access lower interest rate loans through a fast online interface. Like most other lending companies, lending loans to **‘risky’** applicants is the largest source of financial loss (called credit loss). **Credit loss** is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'.
+> Lending Club is the largest online loan marketplace, facilitating personal loans, business loans, and medical procedure financing. The company provides borrowers with easy access to loans at lower interest rates through a convenient online platform. Similar to other lending institutions, granting loans to "risky" applicants poses a significant financial risk known as credit loss. Credit loss refers to the amount of money lost by the lender when borrowers fail to repay or abscond with the owed funds. Essentially, borrowers who default on their loans cause the most substantial losses to the lenders. In this case, customers labeled as "charged-off" are considered defaulters.
 
-### Project Statement
+### Project Objective
 
-> Find the driving factors which lead to the defaulted loans which are major source of loss for the company.
+> The goal of this project is to identify the key factors that contribute to defaulted loans, which represent a major source of loss for the company.
 
-### Data Set
+### Dataset
 
-> The data set is a csv file with the loan data for the Lending Club.
+> The dataset used for this project is a CSV file containing loan data from Lending Club.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+<!-- Not all questions need to be answered; focus on those relevant to your project -->
 
 ## Conclusions
 
-- Major Driving factor which can be used to predict the chance of defaulting and avoiding Credit Loss:
-  1. DTI
-  2. Grades
+- Major Factors Influencing Default Probability and Mitigating Credit Loss:
+  1. Debt-to-Income Ratio (DTI)
+  2. Loan Grades
   3. Verification Status
-  4. Annual income
-  5. Pub_rec_bankruptcies
-- Other considerations for 'defaults' :
-  1. Burrowers from large urban cities like california, new york, texas, florida etc.
-  2. Burrowers having annual income in the range 50000-100000.
-  3. Burrowers having Public Recorded Bankruptcy.
-  4. Burrowers with least grades like E,F,G which indicates high risk.
-  5. Burrowers with very high Debt to Income value.
-  6. Burrowers with working experience 10+ years.
+  4. Annual Income
+  5. Number of Public Record Bankruptcies
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Additional Considerations for Default Analysis:
+  1. Borrowers from densely populated urban areas such as California, New York, Texas, Florida, etc.
+  2. Borrowers with annual incomes in the range of $50,000 to $100,000
+  3. Borrowers with a history of public record bankruptcies
+  4. Borrowers with lower grades (E, F, G) indicating higher risk
+  5. Borrowers with high Debt-to-Income ratios
+  6. Borrowers with 10+ years of work experience
 
-## Technologies Used
+<!-- Not all questions need to be answered; focus on those relevant to your project -->
 
-- Pandas - version 1.3.4
-- NumPy - version 1.20.3
-- Seaborn - version 0.11.2
-- MatplotLib - version 3.4.3
-- Plotly - version 5.7.0
+## Technologies Utilized
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Pandas (Version 1.3.4)
+- NumPy (Version 1.20.3)
+- Seaborn (Version 0.11.2)
+- Matplotlib (Version 3.4.3)
+- Plotly (Version 5.7.0)
+
+<!-- It is recommended to mention the library versions used in this project as they may change over time -->
 
 ## Acknowledgements
 
-This project was inspired by UpGrad IITB Programme as a case study for the Machine Learning and Artificial Intelligence course.
+This project was inspired by the UpGrad IITB Programme as a case study for the Machine Learning and Artificial Intelligence course.
 
 ## Contact
 
-Created by [@BoinepallyKarthik]
+Created by [@BoinepallyKarthik] & [@Achintyaschool2021]
 
 <!-- Optional -->
 
-<!-- ## License -->
-
 ## License
 
-This project is open source and available without restrictions.
+This project is open source and freely available without any restrictions.
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+<!-- Include relevant sections; not all sections need to be included -->
